@@ -20,7 +20,7 @@ export const SEO = ({
 	location = '',
 }) => {
 	const structuredDataOrganization = `{ 
-		"@context": "http://schema.org",
+		"@context": "http://biswajeetdas.com",
 		"@type": "Organization",
 		"legalName": "${legalName}",
 		"url": "${url}",
@@ -58,7 +58,10 @@ export const SEO = ({
 			<meta name="description" content={description} />
 			<meta name="image" content={Thumbnail} />
 
-			<meta property="og:url" content={`${url}${location}/?ref=smakosh.com`} />
+			<meta
+				property="og:url"
+				content={`${url}${location}/?ref=biswajeetdas.com`}
+			/>
 			<meta property="og:type" content="website" />
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={description} />
