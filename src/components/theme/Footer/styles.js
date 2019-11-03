@@ -32,7 +32,7 @@ export const Links = styled.div`
 		margin: 0 0.5rem;
 
 		img {
-			margin: 0;
+			margin: 0 10px;
 		}
 
 		&:first-child,

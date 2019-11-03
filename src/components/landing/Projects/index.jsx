@@ -8,18 +8,16 @@ import { Wrapper, Grid, Item, Content, Stats } from './styles'
 export const Projects = () => {
 	const {
 		github: {
-			repositoryOwner: {
-				repositories: { edges },
+			user: {
+				pinnedRepositories: { edges },
 			},
 		},
 	} = useStaticQuery(graphql`
 		{
 			github {
-				repositoryOwner(login: "smakosh") {
-					repositories(
-						first: 8
-						orderBy: { field: STARGAZERS, direction: DESC }
-					) {
+				user(login: "BiswaViraj") {
+					pinnedRepositories(first: 6) {
+						totalCount
 						edges {
 							node {
 								id
