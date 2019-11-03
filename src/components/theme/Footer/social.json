@@ -10,5 +10,11 @@
     "name": "Twitter",
     "link": "https://twitter.com/BiswaViraj",
     "icon": "/icons/twitter.svg"
+  },
+  {
+    "id": 2,
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/biswajeet-das-1643a6146/",
+    "icon": "/icons/linkedin.svg"
   }
 ]

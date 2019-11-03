@@ -7,7 +7,7 @@ export const Footer = () => (
 	<Wrapper>
 		<Flex as={Container}>
 			<Details>
-				<h2>Biswajeet Das</h2>
+				<h2>&lt; Biswajeet Das /&gt;</h2>
 			</Details>
 			<Links>
 				{social.map(({ id, name, link, icon }) => (
