@@ -8,6 +8,20 @@ export const Footer = () => (
 		<Flex as={Container}>
 			<Details>
 				<h2>&lt; Biswajeet Das /&gt;</h2>
+				<span>
+					© All rights are reserved | {new Date().getFullYear()} | Made with{' '}
+					<span aria-label="love" role="img">
+						💖
+					</span>{' '}
+					using{' '}
+					<a
+						href="https://www.gatsbyjs.org/"
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+						GatsbyJS
+					</a>
+				</span>
 			</Details>
 			<Links>
 				{social.map(({ id, name, link, icon }) => (
