@@ -12,6 +12,14 @@ module.exports = {
 		author: config.author,
 	},
 	plugins: [
+		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
+				trackingId: 'UA-151323493-1',
+				head: true,
+			},
+		},
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-styled-components',
 		/* {
@@ -35,6 +43,7 @@ module.exports = {
 				fetchOptions: {},
 			},
 		},
+
 		{
 			resolve: 'gatsby-plugin-nprogress',
 			options: {
