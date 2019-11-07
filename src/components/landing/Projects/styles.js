@@ -24,8 +24,12 @@ export const Item = styled.div`
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
 	background-color: #efeeff;
+	transition: all 0.2s ease-in-out;
+	:hover {
+		transform: scale(1.1);
+	}
 	h4 {
 		color: #212121;
 	}
