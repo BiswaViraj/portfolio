@@ -25,6 +25,11 @@ export const Details = styled.div`
 	@media (max-width: 960px) {
 		padding-left: unset;
 		width: 100%;
+		ul {
+			columns: 1;
+			-webkit-columns: 1;
+			-moz-columns: 1;
+		}
 	}
 
 	h1 {
@@ -39,6 +44,15 @@ export const Details = styled.div`
 		font-weight: normal;
 		line-height: 1.3;
 		color: #707070;
+	}
+	ul {
+		columns: 2;
+		-webkit-columns: 2;
+		-moz-columns: 2;
+		margin-bottom: 2rem;
+	}
+	li {
+		font-size: 14pt;
 	}
 `
 

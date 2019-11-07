@@ -5,7 +5,6 @@ export const Wrapper = styled.div`
 		color: #6d6d6d;
 		text-decoration: none;
 	}
-
 	${({ desktop }) =>
 		desktop
 			? `
@@ -19,6 +18,11 @@ export const Wrapper = styled.div`
 					&:last-child {
 							margin-right: unset;
 					}
+			} 
+			.contact {
+				padding-left: 0.8rem;
+				padding-right: 0.8rem;
+				border: 2px solid blue;
 			}
 		`
 			: `

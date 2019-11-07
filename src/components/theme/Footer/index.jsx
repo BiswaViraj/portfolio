@@ -13,7 +13,7 @@ export const Footer = () => (
 					<span aria-label="love" role="img">
 						💖
 					</span>{' '}
-					using{' '}
+					and Coffee using{' '}
 					<a
 						href="https://www.gatsbyjs.org/"
 						rel="noopener noreferrer"

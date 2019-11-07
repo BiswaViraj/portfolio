@@ -13,7 +13,8 @@ export const Intro = () => (
 				<h1>Hi There!</h1>
 				<h4>
 					I’m Biswajeet.
-					<br /> Front-End Developer!
+					<br />
+					Front-End Developer!
 				</h4>
 				<Button as={AnchorLink} href="#contact">
 					<strong>Say Hi!</strong>
