@@ -13,9 +13,9 @@ export const Skills = () => (
 				<h1>About Me</h1>
 				<p>
 					I'm a creative and passionate Front-End Developer based in Cuttack,
-					India who believes in creating meaningful products that creates value.
+					India who believes in creating meaningful products that create value.
 					<br />
-					Apart from front-end technologies, I know a bit of back-end
+					Apart from front-end technologies, I know a bit about back-end
 					technologies too.
 					<br />
 					<br />
