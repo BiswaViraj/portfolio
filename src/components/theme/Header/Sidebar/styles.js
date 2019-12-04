@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
 	opacity: 0;
 	height: 100%;
 	background-color: #fff;
-	transition: all 0.2s cubic-bezier(0.6, 0.05, 0.28, 0.91);
+	transition: all 0.4s cubic-bezier(0.6, 0.05, 0.28, 0.91);
 
 	${({ active }) =>
 		active &&
