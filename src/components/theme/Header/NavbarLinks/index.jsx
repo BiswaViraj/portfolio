@@ -10,9 +10,9 @@ const NavbarLinks = ({ desktop }) => (
 		<AnchorLink className="contact" href="#contact">
 			Contact
 		</AnchorLink>
-		<a href={Resume} download="biswajeetdas">
-			Resume
-		</a>
+// 		<a href={Resume} download="biswajeetdas">
+// 			Resume
+// 		</a>
 	</Wrapper>
 )
 
